@@ -199,7 +199,7 @@ p {
 h1 {
   max-width: 12ch;
   margin: 0;
-  font-size: clamp(3.15rem, 9vw, 6.9rem);
+  font-size: clamp(3.15rem, 9vw, 6.2rem);
   line-height: 0.93;
   letter-spacing: 0;
 }
@@ -716,6 +716,10 @@ textarea:focus {
 
   .nav.open {
     transform: translateX(0);
+  }
+
+  body.nav-open {
+    overflow: hidden;
   }
 
   h1 {
