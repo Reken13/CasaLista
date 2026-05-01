@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Casa Lista | Meal prep e comida caseira</title>
+    <meta
+      name="description"
+      content="Comida caseira refrigerada, pronta para aquecer em minutos, com pedido f&aacute;cil pelo WhatsApp."
+    />
+    <link rel="alternate" hreflang="es" href="index.html" />
+    <link rel="alternate" hreflang="en" href="en.html" />
+    <link rel="alternate" hreflang="pt" href="pt.html" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Casa Lista">
+        <span class="brand-mark">CL</span>
+        <span>Casa Lista</span>
+      </a>
+      <nav class="nav" aria-label="Navega&ccedil;&atilde;o principal">
+        <a href="#menu">Menu</a>
+        <a href="#pedido">Pedido</a>
+      </nav>
+      <div class="language-switcher" aria-label="Seletor de idioma">
+        <a href="index.html" data-lang="es">ES</a>
+        <a href="en.html" data-lang="en">EN</a>
+        <a class="active" href="pt.html" data-lang="pt" aria-current="page">PT</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="header-action" href="#pedido">Pedir agora</a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Boxes, snacks e comida caseira</p>
+          <h1>Comida caseira pronta em minutos.</h1>
+          <p class="hero-text">
+            Pe&ccedil;a hoje, aque&ccedil;a e aproveite.<br />
+            Perfeita para o trabalho ou para casa.
+          </p>
+          <p class="hero-micro">Entrega refrigerada &bull; Pronta em 2-3 minutos</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary direct-whatsapp" type="button" data-item="Quero fazer um pedido">
+              Ir para pedido
+            </button>
+          </div>
+        </div>
+        <div class="hero-media" aria-label="Comida caseira em recipientes de meal prep">
+          <img src="assets/hero-meal-prep.png" alt="Recipientes de meal prep com comida caseira fresca" />
+        </div>
+      </section>
+
+      <section class="trust-band" aria-label="Destaques do servi&ccedil;o">
+        <span>Comida feita na hora</span>
+        <span>Higiene cuidada</span>
+        <span>Ingredientes de qualidade</span>
+        <span>Entrega refrigerada</span>
+        <span>Sobremesas caseiras</span>
+        <span>Entrega ou retirada</span>
+      </section>
+
+      <section class="section" id="menu">
+        <div class="section-heading">
+          <p class="eyebrow">Menu</p>
+          <h2>Escolha seu prato.</h2>
+          <p>Pe&ccedil;a pratos individuais, snacks para compartilhar ou uma sobremesa para completar.</p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card featured-card">
+            <div class="menu-card-top">
+              <span class="tag">Favorito</span>
+              <strong>6.90&euro;</strong>
+            </div>
+            <h3>Spicy Sweet Chicken Box</h3>
+            <ul class="ingredients">
+              <li>Arroz</li>
+              <li>Frango doce-picante</li>
+              <li>Pickles de ma&ccedil;&atilde;</li>
+              <li>Gergelim, maionese picante e cebolinha</li>
+            </ul>
+            <ul class="product-points">
+              <li>Mais pedido</li>
+              <li>Pronto em 3 minutos</li>
+            </ul>
+            <button class="quick-add" type="button" data-item="Spicy Sweet Chicken Box" data-price="6.90">Adicionar ao pedido</button>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <span class="tag">Box</span>
+              <strong>6.50&euro;</strong>
+            </div>
+            <h3>Arroz salteado</h3>
+            <ul class="ingredients">
+              <li>Frango ou carne</li>
+              <li>Arroz e ovo</li>
+              <li>Molho de soja + mirin</li>
+              <li>Cebolinha</li>
+            </ul>
+            <ul class="product-points">
+              <li>Econ&ocirc;mico</li>
+              <li>Pronto em 3 minutos</li>
+            </ul>
+            <button class="quick-add" type="button" data-item="Arroz salteado com frango ou carne" data-price="6.50">Adicionar ao pedido</button>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <span class="tag">Massa</span>
+              <strong>6.00&euro;</strong>
+            </div>
+            <h3>Pasta Carbonara</h3>
+            <ul class="ingredients">
+              <li>Massa 125g</li>
+              <li>Bacon</li>
+              <li>Nata</li>
+              <li>Grana Padano e pimenta</li>
+            </ul>
+            <ul class="product-points">
+              <li>Cl&aacute;ssica e cremosa</li>
+              <li>Pronta em 3 minutos</li>
+            </ul>
+            <button class="quick-add" type="button" data-item="Pasta Carbonara" data-price="6.00">Adicionar ao pedido</button>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <span class="tag">Grill</span>
+              <strong>9.90&euro;</strong>
+            </div>
+            <h3>Grill Box</h3>
+            <ul class="ingredients">
+              <li>Carne, porco e salsicha</li>
+              <li>Batatas ao forno com piment&oacute;n de la Vera</li>
+              <li>Salada e lim&atilde;o</li>
+              <li>Chimichurri ou maionese picante</li>
+            </ul>
+            <ul class="product-points">
+              <li>Prato completo</li>
+              <li>Pronto em 3-4 minutos</li>
+            </ul>
+            <button class="quick-add" type="button" data-item="Grill Box" data-price="9.90">Adicionar ao pedido</button>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <span class="tag">Wrap</span>
+              <strong>5.50&euro;</strong>
+            </div>
+            <h3>Wrap de frango</h3>
+            <ul class="ingredients">
+              <li>Frango</li>
+              <li>Alface e cebola</li>
+              <li>Cebola crispy</li>
+              <li>Molho da casa</li>
+            </ul>
+            <ul class="product-points">
+              <li>R&aacute;pido e leve</li>
+              <li>Pronto em 2 minutos</li>
+            </ul>
+            <button class="quick-add" type="button" data-item="Wrap de frango" data-price="5.50">Adicionar ao pedido</button>
+          </article>
+          <article class="menu-card vegetarian-card">
+            <div class="menu-card-top">
+              <span class="tag vegetarian-tag">Vegetariano</span>
+              <strong>7.50&euro;</strong>
+            </div>
+            <h3>Bife de couve-flor teriyaki</h3>
+            <ul class="ingredients">
+              <li>Bife de couve-flor</li>
+              <li>Molho teriyaki</li>
+              <li>Pur&ecirc; de couve-flor</li>
+              <li>Cebolinha e gergelim</li>
+            </ul>
+            <ul class="product-points">
+              <li>Vegetariano</li>
+              <li>Pronto em 3 minutos</li>
+            </ul>
+            <button class="quick-add" type="button" data-item="Bife de couve-flor teriyaki" data-price="7.50">Adicionar ao pedido</button>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <span class="tag">Snack</span>
+              <strong>desde 11.90&euro;</strong>
+            </div>
+            <h3>Teque&ntilde;os com molho da casa</h3>
+            <p class="product-subtitle">Perfeitos para compartilhar.</p>
+            <ul class="ingredients">
+              <li>10 unidades - 11.90&euro;</li>
+              <li>20 unidades - 19.90&euro;</li>
+            </ul>
+            <ul class="product-points">
+              <li>Com molho da casa</li>
+              <li>Prontos para servir</li>
+            </ul>
+            <button class="quick-add" type="button" data-item="Tequenos com molho da casa" data-price="11.90">Adicionar ao pedido</button>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-top">
+              <span class="tag">Sobremesas</span>
+              <strong>desde 3.00&euro;</strong>
+            </div>
+            <h3>Sobremesas caseiras</h3>
+            <p class="product-subtitle">Adicione uma sobremesa ao seu pedido.</p>
+            <ul class="ingredients">
+              <li>Brownie - 3.00&euro;</li>
+              <li>Tres leches - 4.20&euro;</li>
+            </ul>
+            <div class="dessert-actions">
+              <button class="quick-add" type="button" data-item="Brownie" data-price="3.00">Adicionar brownie</button>
+              <button class="quick-add" type="button" data-item="Tres leches" data-price="4.20">Adicionar tres leches</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="how-section" aria-label="Como funciona">
+        <div class="section-heading">
+          <p class="eyebrow">Como funciona</p>
+          <h2>Aque&ccedil;a e aproveite.</h2>
+        </div>
+        <div class="how-it-works">
+          <div>
+            <span>1</span>
+            <h3>Escolha sua comida</h3>
+            <p>Escolha seu box, snack ou sobremesa.</p>
+          </div>
+          <div>
+            <span>2</span>
+            <h3>Receba refrigerada</h3>
+            <p>Confirmamos entrega ou retirada.</p>
+          </div>
+          <div>
+            <span>3</span>
+            <h3>Aque&ccedil;a e aproveite</h3>
+            <p>Pronta em poucos minutos.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-section" id="pedido">
+        <div class="order-copy">
+          <p class="eyebrow">Pedido r&aacute;pido</p>
+          <h2>Conte o que voc&ecirc; quer comer.</h2>
+          <p>
+            Adicione v&aacute;rios produtos, revise seu pedido e envie pelo WhatsApp.
+            Cada pedido &eacute; preparado com higiene cuidada e ingredientes de qualidade.
+          </p>
+        </div>
+        <div class="cart-panel" aria-live="polite">
+          <div class="cart-header">
+            <h3>Seu pedido</h3>
+            <button class="cart-clear" type="button">Limpar</button>
+          </div>
+          <ul class="cart-list" id="cartList"></ul>
+          <p class="cart-empty" id="cartEmpty">Adicione produtos do menu para montar seu pedido.</p>
+          <p class="cart-total" id="cartTotal" hidden></p>
+          <button class="btn btn-primary cart-send" type="button">Enviar pedido pelo WhatsApp</button>
+        </div>
+        <form class="order-form" id="orderForm">
+          <label>
+            Nome opcional
+            <input name="name" type="text" placeholder="Seu nome" />
+          </label>
+          <label>
+            Pedido
+            <textarea
+              name="order"
+              rows="4"
+              placeholder="Ex: Spicy Sweet Chicken Box + brownie, sem cebola"
+              required
+            ></textarea>
+          </label>
+          <label>
+            Entrega ou retirada
+            <input name="area" type="text" placeholder="Cidade, bairro ou retirada" />
+          </label>
+          <button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button>
+          <p class="form-note">Vamos confirmar disponibilidade, hor&aacute;rio e forma de entrega.</p>
+        </form>
+      </section>
+
+      <section class="final-cta" aria-label="Pedido final">
+        <h2>Pronto para comer bem sem cozinhar?</h2>
+        <button class="btn btn-primary direct-whatsapp" type="button" data-item="Quero fazer um pedido">
+          Revisar pedido
+        </button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Casa Lista - Meal prep e comida caseira</p>
+      <a href="mailto:hola@casalista.com">hola@casalista.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
